@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/bc8140709d.js" crossorigin="anonymous"></script>
+    <link rel="Stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap">
+    <style>
+        /* Custom CSS to change carousel height */
+        .carousel-inner {
+            
+            height: 600px; /* Adjust the height as needed */
+           
+        }
+        .carousel-item{
+            height: 100%; /* Ensures the images fill the carousel item height */
+            width: 100%; /* Ensures the images fill the carousel item width */
+            object-fit: cover;
+            position: absolute;
+        }
+        .sl1{
+            font-family: 'Pacifico', cursive;
+            font-size: 30px;
+        }
+        .sl2{
+            font-family: 'Pacifico', cursive;
+            font-size: 30px;
+        }
+        .sl3{
+            font-family: 'Pacifico', cursive;
+            font-size: 30px;
+        }
+        .navbar {
+            
+            top: 0;
+            width: 100%;
+            z-index: 1000;
+            background-color: transparent
+        }
+
+        .navbar-brand {
+            font-family: 'Pacifico', cursive;
+            font-size: 24px;
+            color:grey;
+        
+        }
+        .row {
+            padding-top: 50px;
+
+        }
+        .col{
+            padding-top: 20px;
+
+        }
+        .ph{
+            position:relative; 
+            left:200px; 
+            top:2px;   
+        }
+        .center-align {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        .end{
+            padding-bottom: 150px;
+        }
+        .custom-icon {
+            color:black; /* change clr of icon */
+        }
+        .qq{
+            font-family: 'pacifico';
+
+        }
+
+        
+
+        
+    </style>
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
+    <div class=".carousel-inner">
+        <nav class="navbar " >
+            <nav class="navbar bg-body-tertiary">
+            <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+            <img src="./Images/download (1).png" alt="Logo" width="100" height="60" font="Fantasy" class="d-inline-block align-text-top">
+             Kerala Tourism</a>
+                
+                    <ul class="nav justify-content-end">
+                        <li class="nav-item">
+                            <a class="nav-link " font="Fantasy" href="index.html">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">DISTRICTS</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="sign.html">SIGN IN</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="signup.html">SIGN UP</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="Connect.html">CONTACT</a>
+                        </li>
+                    
+                    
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </ul>
+                
+  </div>
+</nav>
+                </div>
+            
+        
+        <div id="carouselExampleCaptions" class="carousel slide">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="./Images/12.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5 class="sl1">Munnar</h5>
+                  <p>Some representative placeholder content for the first slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./Images/13.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="sl1">Athirapilly</h5>
+                  <p>Some representative placeholder content for the second slide.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="./Images/14.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="sl1">Alapuzha</h5>
+                  <p>Some representative placeholder content for the third slide.</p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <div class="container text-center">
+  <div class="row">
+    <h1 class="qq">Districts in Kerala</h1>
+    <div class="col">
+        <div class="card" style="width: 18rem;">
+            <img src="./Images/dis1.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Thiruvananthapuram</h5>
+              <p class="card-text">Thiruvananthapuram, often called Trivandrum, is the capital city of Kerala, known for its lush greenery, historic landmarks, and serene backwaters.</p>
+              <a href="trivan.html" class="btn btn-primary">Explore More</a>
+            </div>
+          </div>
+    </div>
+    <div class="col">
+        <div class="card" style="width: 18rem;">
+            <img src="./Images/dis2.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Kollam</h5>
+              <p class="card-text">Kollam, situated in Kerala, is famed for its tranquil backwaters, historic ports, and traditional cashew processing industry.It is also home for great flora and fauna</p>
+              <a href="kollam.html" class="btn btn-primary">Explore More</a>
+            </div>
+          </div>
+    </div>
+    <div class="col">
+        <div class="card" style="width: 18rem;">
+            <img src="./Images/dis3.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Iduki</h5>
+              <p class="card-text">Idukki, nestled in the Western Ghats of Kerala, is famed for its breathtaking hill stations, lush tea plantations, and the majestic Idukki Arch Dam              </p>
+              <a href="Idukki.html" class="btn btn-primary">Explore More</a>
+            </div>
+          </div>
+    </div>
+    <div class="col">
+        <div class="card" style="width: 18rem;">
+            <img src="./Images/dis4.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Kottayam</h5>
+              <p class="card-text">Kottayam, in Kerala, is renowned for its scenic landscapes, vibrant culture, and significant contributions to the state's literary and educational heritage.</p>
+              <a href="kottayam.html" class="btn btn-primary">Explore More</a>
+            </div>
+          </div>
+    </div>
+    <div class="col">
+        <div class="card" style="width: 18rem;">
+            <img src="./Images/card5.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Ernakulam</h5>
+              <p class="card-text">Ernakulam, the commercial hub of Kerala, charms with its bustling city life, historic landmarks, and scenic backwaters, epitomizing the state's dynamic spirit and cultural diversity.</p>
+              <a href="ernakulam.html" class="btn btn-primary">Explore More</a>
+            </div>
+          </div>
+    </div>
+    <div class="col">
+        <div class="card" style="width: 18rem;">
+            <img src="./Images/card6.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Kannur</h5>
+              <p class="card-text">Kannur, situated along Kerala's Malabar Coast, entices with its pristine beaches, rich cultural heritage, and vibrant Theyyam rituals</p>
+              <a href="Kannur.html" class="btn btn-primary">Explore More</a>
+            </div>
+          </div>
+    </div>
+    <div class="col">
+        <div class="card" style="width: 18rem;">
+            <img src="./Images/card7.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Palakkad</h5>
+              <p class="card-text">
+                Palakkad, nestled between the Western Ghats and the Annamalai Hills, is renowned for its lush greenery, historic forts, and the enchanting Malampuzha Dam</p>
+              <a href="palakad.html" class="btn btn-primary">Explore More</a>
+            </div>
+          </div>
+    </div>
+    <div class="col">
+        <div class="card" style="width: 18rem;">
+            <img src="./Images/card8.jpg" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">Wayanad</h5>
+              <p class="card-text">
+                Wayanad, nestled amidst the Western Ghats in Kerala, captivates with its verdant forests, tranquil waterfalls, and sprawling tea estates , offering a serene retreat </p>
+              <a href="wayanad.html" class="btn btn-primary">Explore More</a>
+            </div>
+          </div>
+    </div>
+    <div class="row">
+        <h1 class="qq">Plan with us</h1></div>
+  </div>
+
+
+  <div class="container text-center">
+    <div class="row">
+      <div class="col">
+        <a  href="#"><i class="fa-solid fa-hotel custom-icon" style="font-size:70px;" ></i></a> 
+        
+      </div>
+      <div class="col">
+        <i class="fa-solid fa-plane custom-icon" style="font-size:70px; "></i>
+      </div>
+      <div class="col">
+        <i class="fa-solid fa-taxi custom-icon" style="font-size:70px;"></i>
+      </div>
+      <div class="col">
+        <i class="fa-solid fa-book-atlas custom-icon" style="font-size:70px;"></i>
+      </div>
+      <div class="col">
+        <i class="fa-solid fa-bell-concierge custom-icon" style="font-size:70px;"></i>
+      </div>
+      <div class="col">
+        <i class="fa-solid fa-toilet custom-icon" style="font-size:70px;"></i>
+      </div>
+      <div class="col">
+        <i class="fa-solid fa-wheelchair custom-icon" style="font-size:70px;"></i>
+      </div>
+      <div class="col">
+        <i class="fa-solid fa-location-dot custom-icon" style="font-size:70px;"></i>
+      </div>
+    </div>
+    <div class="row">
+        
+  </div>
+  </div>
+  
+  <div class="card">
+    <div class="card-header">
+      
+    </div>
+    <div class="card-body">
+        <div class="container ">
+            
+                <h4 class="qq">Search for Accomodation</h4>
+                
+                <div class="container ">
+                    <form class="d-flex">
+                        <input class="form-control " type="search" placeholder="Type your search here" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+
+              </div>
+             
+            
+         </div>
+  </div>
+  
+
+  
+
+  <div class="row">
+    <h1 class="qq">Connect with us</h1></div>
+</div>
+<div class="container text-center">
+    <div class="row row-cols-8">
+        <div class="col"><a href=""> <i class="fa-brands fa-youtube custom-icon"style="font-size:50px; "></i></a></div>
+        <div class="col"><a href=""><i class="fa-brands fa-discord custom-icon"style="font-size:50px; "></i></a></div>
+        <div class="col"><a href=""><i class="fa-brands fa-facebook custom-icon"style="font-size:50px; "></i></a></div>
+        <div class="col"><a href=""><i class="fa-brands fa-twitter custom-icon"style="font-size:50px; "></i></a></div>
+        <div class="col"><a href=""><i class="fa-brands fa-square-instagram custom-icon"style="font-size:50px; "></i></a></div>
+        <div class="col"><a href=""><i class="fa-brands fa-square-whatsapp custom-icon" style="font-size:50px; "></i></a></div>
+        <div class="col"><a href=""><i class="fa-brands fa-pinterest custom-icon" style="font-size:50px; "></i></a></div>
+        <div class="col"><a href=""><i class="fa-brands fa-reddit custom-icon" style="font-size:50px; "></i></a></div>
+    </div>
+  </div>
+  
+ 
+<div class="end">
+    <h1></h1></div>
+</div>
+
+  
+
+
+
+
+
+</div>
+  
+   
+</div>
+</div>
+</div>
+
+    
+   
+</body>
+</html>
